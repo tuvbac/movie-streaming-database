@@ -1,0 +1,2 @@
+/*25 yaşından büyük kadın kullanıcıların izlediği dizi ve filmleri listele*/
+select icerik_isim from kullanici_izleme where kullanici_id in (select kullanici_id from tbl_kullanicilar where yas>25 and cinsiyet='k') 
