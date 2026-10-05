@@ -15,15 +15,15 @@ Kullanılan Teknolojiler
 - SQL Dili: T-SQL (DDL, DML, SQL Queries)
 
 Proje İçeriği
-- `schema.sql`: Veritabanı tabloları ve `FOREIGN KEY` kısıtlamaları.
-- `data.sql`: Örnek test verileri.
-- `queries.sql`: İş kurallarına göre yazılmış gelişmiş `SELECT` ve `JOIN` sorguları.
-- `ER-Diagram.png`: Veritabanı ilişkisel şeması.
+- `DDL_Komutları`: Veri tabanı tabloları ve `FOREIGN KEY` kısıtlamaları.
+- `DML_Komutları`: Örnek test verileri.
+- `sql_sorgu`: İş kurallarına göre yazılmış gelişmiş `SELECT` ve `JOIN` sorguları.
+- `ER Diagramı`: Veri tabanı ilişkisel şeması.
 
 Kurulum ve Çalıştırma
-1. `schema.sql` dosyasını MS SQL Server üzerinde çalıştırarak veritabanı mimarisini oluşturma.
-2. `data.sql` dosyasını çalıştırarak örnek verileri ekleme.
-3. `queries.sql` dosyasındaki sorguları çalıştırarak raporlamaları test etme.
+1. `DDL_Komutları` dosyasını MS SQL Server üzerinde çalıştırarak veritabanı mimarisini oluşturma.
+2. `DML_Komutları` dosyasını çalıştırarak örnek verileri ekleme.
+3. `sql_sorgu` dosyasındaki sorguları çalıştırarak raporlamaları test etme.
 
 Proje Ekibi
 - Beyza Solmaz
